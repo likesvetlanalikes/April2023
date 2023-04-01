@@ -35,6 +35,6 @@ public class Seasons {
                 System.exit(1);
                 // завершение работы с кодом ошибки;
         }
-        System.out.println(monthName + "относится к сезону" + season);
+        System.out.println(monthName + " относится к сезону " + season);
     }
 }
