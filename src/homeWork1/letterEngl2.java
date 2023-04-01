@@ -14,7 +14,7 @@ public class letterEngl2 {
                 System.out.println("Гласная буква");
                 break;
             default:
-                System.out.println("Согласная букаа");
+                System.out.println("Согласная буква");
                 break;
 
         }
