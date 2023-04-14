@@ -1,6 +1,6 @@
 package homeWork3;
 
-public enum Month {
+public enum MONTHS{
     JANUARY,
     FEBRUARY,
     MARCH,
