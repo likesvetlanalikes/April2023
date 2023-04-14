@@ -1,20 +1,16 @@
 package homeWork2;
 
-public class Fibonachi{
-    public static void Fib(){
-        int[] Mas=new int[20];
-        //С помощью простого цикла заполним значения элементов массива
-        for(int i=0;i<Mas.length;i++){
-            //Если индекс элемента массива меньше 2 присваиваем ему значение
-            if(i<2){
-                Mas[i]=1;
+    public class Fibonachi {
+        public int[] fib(int value) {
+            int[] mas = new int [value];
+            mas[1] = 1;
+            for (int i = 2; i < mas.length; i++) {
+                if (i < 2) {
+                    mas[i] = 1;
+                } else {
+                    mas[i] = mas[i - 2] + mas[i - 1];
+                }
             }
-            //Во всех остальных случаях значение элемента массива равно сумме значений двух предыдущих елементов массива
-            else {
-                Mas[i]=Mas[i-2]+Mas[i-1];
-
-            }
-            System.out.print(Mas[i]+" ");
+            return mas;
         }
     }
-}
