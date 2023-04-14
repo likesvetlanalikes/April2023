@@ -1,7 +1,7 @@
 package homeWork3;
 
 import java.util.Arrays;
-public class Massif {
+public class Massive {
     private int[] sorting(int[] arr) {
         Arrays.sort(arr);
         return arr;
